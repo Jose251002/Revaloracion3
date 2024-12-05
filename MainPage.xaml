@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage"
+             BackgroundColor="SkyBlue">
+    <StackLayout Padding="30" Spacing="20">
+        <Label Text="VentasE" 
+               FontSize="32" 
+               HorizontalOptions="Center"
+               TextColor="Black" />
+        <Button Text="Iniciar Sesión"
+                BackgroundColor="Black"
+                TextColor="White"
+                Clicked="OnIniciarSesionClicked" />
+        <Button Text="Crear Cuenta"
+                BackgroundColor="Black"
+                TextColor="White"
+                Clicked="OnCrearCuenta" />
+    </StackLayout>
+</ContentPage>
